@@ -5,23 +5,23 @@ class ShGuard < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.9/sh-guard-aarch64-apple-darwin.tar.gz"
-      sha256 "5ea5d99f4bea610e51fb14fafb43cdb502c63ff1bf16ffa814c3abd3bf578e71"
+      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.10/sh-guard-aarch64-apple-darwin.tar.gz"
+      sha256 "56a4e91df78ac11eacb046885ca7266da965ca76e5be6c908127dd5333fd16c0"
     end
     on_intel do
-      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.9/sh-guard-x86_64-apple-darwin.tar.gz"
-      sha256 "1474bd10db27a393cd99e547e18e189022d1402af4c950d3b74dc4486755f0d2"
+      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.10/sh-guard-x86_64-apple-darwin.tar.gz"
+      sha256 "513dd61dd34d739b240011f9d620ec3fb6b7d11524d2c1fd7b9545ca795e15ad"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.9/sh-guard-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b09ada0cc34b0368e9e8cdce6442d5ac7e32ff88f3cb38ea4629c47a970bc9d4"
+      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.10/sh-guard-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "772a53bb5f736462b21e1e643006fc2d6abbd31ef93f575a030e3d86b2daeee3"
     end
     on_intel do
-      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.9/sh-guard-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d2d3bedbb8b86e76f9da0f2954d608dd3797684b609788ffd8fbc8331aa1d63c"
+      url "https://github.com/aryanbhosale/sh-guard/releases/download/v0.1.10/sh-guard-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7c1a34a26e5eb4ab58bfc4f879ba6bca366c1df8e3a568e2b77198a92fd83d9f"
     end
   end
 
